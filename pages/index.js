@@ -50,12 +50,33 @@ const Home = () => {
         Use this section to highlight your popular customers.
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="Spørgsmål?" title="Ofte stillede spørgsmål">
-        Nedenfor finder du svar på de mest stillede spørgsmål. Hvis du ikke kan
-        finde svar på dit spørgsmål, så er du velkommen til at kontakte os.
-      </SectionTitle>
       <Faq />
       <Cta />
+      <SectionTitle pretitle="Send os en besked" title="Kom i kontakt" />
+      <div class="flex justify-center items-center w-screen bg-white">
+        <div class="container mx-auto my-4 px-4 lg:px-20">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+          <div class="grid grid-cols-1 gap-5 md:grid-cols-3 mt-5">
+            <input type="hidden" name="access_key" value="b4971803-dd4b-4ddd-9c43-2c1346d4fc93" />
+            <input type="text" name="name"  class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" placeholder="Navn*" required />
+            <input type="email" name="email" class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" placeholder="Email*" required />
+            <input type="text" name="Phone Number" class="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" placeholder="Telefon*" required></input>
+            
+            </div>
+            <div class="my-4">
+              <textarea name="message" placeholder="Besked*" class="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" required></textarea>
+            </div>
+            <div class="my-2 w-1/2 lg:w-1/4">
+              <button type="submit" class="uppercase text-sm font-bold tracking-wide bg-blue-900 text-gray-100 p-3 rounded-lg w-full 
+                          focus:outline-none focus:shadow-outline">
+                Send besked
+              </button>
+            </div>
+          </form>
+          </div>
+        </div>    
+        
       <Footer />
       <PopupWidget />
     </>
