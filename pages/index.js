@@ -50,7 +50,7 @@ const Home = () => {
       </SectionTitle>
       <Testimonials />
       <Faq />
-      <SectionTitle pretitle="Send os en besked" title="Kom i kontakt" />
+      <SectionTitle pretitle="Send os en besked" title="Kom i kontakt" id="kontakt" />
       <div class="flex justify-center items-center w-screen">
         <div class="container mx-auto my-4 px-4 lg:px-20">
         <form action="https://api.web3forms.com/submit" method="POST">
