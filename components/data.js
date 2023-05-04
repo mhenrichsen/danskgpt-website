@@ -11,24 +11,24 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
-  image: benefitOneImg,
+  title: "Alt er nu muligt",
+  desc: "Med DanskGPT er mulighederne næsten ubegrænsede.",
+  image: benefitTwoImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
-    },
-    {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Skalér jeres arbejdeskraft",
+      desc: "Med de rigtige prompts kan I blive 10x mere effektive.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Fungerer som en menneskelig assistent",
+      desc: "DanskGPT kan svare på spørgsmål, opsmummere tekster og meget mere.",
       icon: <CursorArrowRaysIcon />,
+    },
+    {
+      title: "Ingen logging",
+      desc: "DanskGPT er bygget med privatliv for øje. Derfor logger vi ikke noget som helst.",
+      icon: <FaceSmileIcon />,
     },
   ],
 };

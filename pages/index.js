@@ -16,10 +16,10 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>DanskGPT - Den danske version af ChatGPT</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="DanskGPT er en dansk version af OpenAI's ChatGPT. Den kan bruges til at svare på spørgsmål, opsummere tekster og meget mere."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,16 +27,17 @@ const Home = () => {
       <Navbar />
       <Hero />
       <SectionTitle
-        pretitle="Nextly Benefits"
-        title=" Why should you use this landing page">
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        pretitle="Både lokalt og i skyen"
+        title="DanskGPT kan deployes alle steder">
+        Modellen kan deployes både lokalt og i skyen. Vi har gjort det nemt at
+        finde den løsning der lige præcist passer dig. I kan vælge mellem at bruge
+        vores API, eller få modellen udleveret som en docker container.
+        
       </SectionTitle>
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+
       <SectionTitle
-        pretitle="Watch a video"
+        pretitle="Se hvordan det virker"
         title="Learn how to fullfil your needs">
         This section is to highlight a promo or demo video of your product.
         Analysts says a landing page with video has 3% more conversion rate. So,
