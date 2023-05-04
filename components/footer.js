@@ -31,10 +31,8 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              DanskGPT er en dansk sprogmodel. 
+              DanskGPT er en dansk sprogmodel der fungerer som en menneskelig assistent. Den kan skrive tekster, svare på spørgsmål, opsummere, generere ideer og meget mere. 
             </div>
-
-            
           </div>
 
           <div>
@@ -91,20 +89,7 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
-          <a
-            href="https://web3templates.com/"
-            target="_blank"
-            rel="noopener">
-            Web3Templates.
-          </a>{" "}
-          Illustrations from{" "}
-          <a
-            href="https://www.glazestock.com/"
-            target="_blank"
-            rel="noopener ">
-            Glazestock
-          </a>
+          Copyright © {new Date().getFullYear()}.
         </div>
       </Container>
 
