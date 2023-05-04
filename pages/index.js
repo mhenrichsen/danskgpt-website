@@ -3,12 +3,11 @@ import Hero from "../components/hero";
 import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
-import { benefitOne, benefitTwo } from "../components/data";
+import { benefitOne } from "../components/data";
 import Video from "../components/video";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
-import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 
@@ -51,9 +50,8 @@ const Home = () => {
       </SectionTitle>
       <Testimonials />
       <Faq />
-      <Cta />
       <SectionTitle pretitle="Send os en besked" title="Kom i kontakt" />
-      <div class="flex justify-center items-center w-screen bg-white">
+      <div class="flex justify-center items-center w-screen">
         <div class="container mx-auto my-4 px-4 lg:px-20">
         <form action="https://api.web3forms.com/submit" method="POST">
 
