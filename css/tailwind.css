@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-  html,
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply dark:bg-trueGray-900;
   }
