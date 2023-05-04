@@ -35,22 +35,22 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Hvorfor er DanskGPT bedre end ChatGPT?",
+    answer: "DanskGPT er træne udelukkende på et dansk datasæt, hvor ChatGPT er trænet på et primært engelsk datasæt. DanskGPT er derfor bedre til at forstå dansk, og kan derfor give bedre svar.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Hvordan kommer jeg igang?",
+    answer: "Skriv dig op på vores venteliste, så vil vi kontakte dig når vi er klar til at lukke flere brugere ind.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Hvad koster det?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Vi har ikke en fast prissætning, men vurderer hver enkelt kundes behov individuelt. Kontakt os for at høre mere.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Kan man få adgang som privatperson?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Nej, vi sælger udelukkende til virksomheder.",
   },
 ];
 
