@@ -29,7 +29,7 @@ const Home = () => {
       <SectionTitle
         pretitle="Både lokalt og i skyen"
         title="DanskGPT kan deployes alle steder"
-        id="features">
+        id="muligheder">
         Modellen kan deployes både lokalt og i skyen. Vi har gjort det nemt at
         finde den løsning der lige præcist passer dig. I kan vælge mellem at bruge
         vores API, eller få modellen udleveret som en docker container.
